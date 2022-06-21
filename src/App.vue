@@ -10,6 +10,15 @@ export default {
   components: {
     Home,
   },
+  data: () => ({
+    products: [
+      {
+        name: 'Phone case',
+        cost: '5000 HUF',
+        image: '../assets/image/lila_tok.jpg',
+      },
+    ],
+  }),
 };
 </script>
 
@@ -19,6 +28,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
+  /* padding: 0;
+  margin: 0; */
 }
 body {
   background: black;
